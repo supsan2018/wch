@@ -1,3 +1,4 @@
+(ตัวอย่าง ของพี่แซน)
 <?php
 $access_token = 'QoYlV2SNWU962nXM/7iAkLLD73bvlzZFpxvqi29SgqPeeKDt0xFNVEoobjqxNkh8cqRPM5FjqxmeQX+cZxv4Vwg6+SM2iVjNqR7CLWrhVM5w12OR8mTQdyiCSNj0dE53mvOE/3GHgW8keruuXF82AgdB04t89/1O/w1cDnyilFU=';
 $host = "ec2-107-22-211-182.compute-1.amazonaws.com";

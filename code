@@ -1,3 +1,32 @@
+(แสดงผลออกมาเป็นข้อความ)
+if($text == "help"){
+			$messages = [
+			'type' => 'text',
+			'text' => "โปรดกรอกรหัสตามที่กำหนด"."\n"."[A]เพื่อดูวิธีการใช้คู่มือ"."\n"."[B]เพื่อดูคู่มือการเดินทาง"."\n"."[C]เพื่อดูแผนที่"."\n"."ตรวจสอบสภาพอากาศ"."\n"."[1]อำเภอเมือง"."\n"."[2]อำเภอนาโยง"."\n"."[3]อำเภอย่านตาขาว"
+			];
+			}
+	
+	
+(แสดงผลออกมาเป็นข้อความโดยที่เมื่อใส่รหัสไปเป็นภาษาอังกฤษ พิมพ์เล็ก-ใหญ่ ก็ได้ไม่ต้องตามรหัสที่ใส่ไป)
+if (ereg_replace('[[:space:]]+', '', trim($text)) == "8"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอวังวิเศษ"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+
+
+(แสดงผลออกมาเป็นรูปภาพ)
+if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C"){
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/06/08/4z7oub.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/08/4z7oub.jpg"
+			];
+			}
+
+
+
 (ตัวอย่าง ของพี่แซน)
 <?php
 $access_token = 'QoYlV2SNWU962nXM/7iAkLLD73bvlzZFpxvqi29SgqPeeKDt0xFNVEoobjqxNkh8cqRPM5FjqxmeQX+cZxv4Vwg6+SM2iVjNqR7CLWrhVM5w12OR8mTQdyiCSNj0dE53mvOE/3GHgW8keruuXF82AgdB04t89/1O/w1cDnyilFU=';

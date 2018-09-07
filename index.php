@@ -90,7 +90,7 @@ if (!is_null($events['events']))
 			//EndCase
 			if (trim(strtoupper($text)) == "HI")
 			{
-				$messages = ['type' => 'text', 'text' => "hello"];
+				$messages = ['type' => 'text', 'text' => "lol55"];
 			}
 			if ($text == "รูป")
 			{

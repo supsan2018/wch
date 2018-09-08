@@ -88,7 +88,7 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ข้าวขาหมู")
 			{
 				$messages = [
 				'type' => 'image',

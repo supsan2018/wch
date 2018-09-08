@@ -88,6 +88,13 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/06/08/4z7oub.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/08/4z7oub.jpg"];
+			}
 			if (trim(strtoupper($text)) == "HI")
 			{
 				$messages = ['type' => 'text', 'text' => "lol55"];

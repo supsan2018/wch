@@ -97,7 +97,11 @@ if (!is_null($events['events']))
 			}
 			if (trim(strtoupper($text)) == "HI")
 			{
-				$messages = ['type' => 'text', 'text' => "lol55"];
+				$messages = ['type' => 'text', 'text' => "Hello Welcome to WCH Health"];
+			}
+			if (trim(strtoupper($text)) == "สวัสดี")
+			{
+				$messages = ['type' => 'text', 'text' => "สวัสดียินดีต้อนรับเข้าสู่"."\n"."WCH Health"];
 			}
 			if ($text == "รูป")
 			{

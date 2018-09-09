@@ -95,10 +95,6 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/08/fEqpPt.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/08/fEqpPt.jpg"];
 			}
-			if (trim(strtoupper($text)) == "รายการอาหร")
-			{
-				$messages = ['type' => 'text', 'text' => "ข้าวขาหมู"."\n"."ข้าวมันไก่"."\n"."ข้าวไก่ทอด"."];
-			}
 			if (trim(strtoupper($text)) == "HI")
 			{
 				$messages = ['type' => 'text', 'text' => "Hello Welcome to WCH Health"];

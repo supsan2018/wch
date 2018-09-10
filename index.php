@@ -213,8 +213,8 @@ if (!is_null($events['events']))
 			}
 			if ($text == "map")
 			{
-				$messages = ['type' => 'location','title'=> 'my location','address'=> 'เคลิ้ม',
-				'latitude'=> 8.652311,'longitude'=> 99.918031];
+				$messages = ['type' => 'location','title'=> 'my location','address'=> 'โรงเรียนวิเชียรมาตุ',
+				'latitude'=> 7.503131848543433,'longitude'=> 99.63012646883726];
 			}
 			/*if($text == "image"){
 			$messages = [

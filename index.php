@@ -88,6 +88,10 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MENU")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[menu1]รายการอาหารที่1"."\n"."[menu2] เพื่อดูรายการอาหารที่2" . "\n"  . "[menu3] เพื่อดูรายการอาหารที่3"."\n"."[menu4] เพื่อดูรายการอาหารที่4"];
+			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เบียร์")
 			{
 				$messages = [

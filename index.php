@@ -99,7 +99,7 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flUe1Z.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flUe1Z.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu3")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu 3")
 			{
 				$messages = [
 				'type' => 'image',

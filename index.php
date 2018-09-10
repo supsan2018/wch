@@ -88,7 +88,146 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
-			
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เบียร์")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flwkm1.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flwkm1.jpgg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "กาแฟร้อน")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flwBdg.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flwBdg.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "น้ำอัดลม")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flwzQS.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flwzQS.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ชามะนาว")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flwY4Q.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flwY4Q.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "โอเลี้ยง")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flw0bN.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flw0bN.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "นมเย็น")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltIPk.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltIPk.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ชานมเย็น")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltFKl.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltFKl.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ชาเขียว")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltyWe.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltyWe.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "โกโก้เย็น")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltent.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltent.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "กาแฟเย็น")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltLxP.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltLxP.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "อะโวคาโด")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltJzI.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltJzI.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เชอร์รี่")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flta30.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flta30.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "กีวี่")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltVeR.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltVeR.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "แตงโม")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flt8Kz.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flt8Kz.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "กล้วย")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltlA1.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltlA1.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "มะละกอ")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flt5Rn.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flt5Rn.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "สับปะรด")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltwue.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltwue.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "มะม่วง")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flt3VI.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flt3VI.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เงาะ")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flt4w8.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flt4w8.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ทุเรียน")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fltWVb.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fltWVb.jpg"];
+			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "บิงซู")
 			{
 				$messages = [

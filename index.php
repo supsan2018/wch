@@ -90,14 +90,42 @@ if (!is_null($events['events']))
 			//EndCase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MENU")
 			{
-				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[menu1]รายการอาหารที่1"."\n"."[menu2] เพื่อดูรายการอาหารที่2" . "\n"  . "[menu3] เพื่อดูรายการอาหารที่3"."\n"."[menu4] เพื่อดูรายการอาหารที่4"];
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[menu1]เพื่อดูรายการอาหารที่1"."\n"."[menu2] เพื่อดูรายการอาหารที่2" . "\n"  . "[menu3] เพื่อดูรายการอาหารที่3"."\n"."[menu4] เพื่อดูรายการอาหารที่4"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu4")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flUe1Z.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flUe1Z.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu3")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flU2uD.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flU2uD.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu2")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flUxSv.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flUxSv.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu1")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flQmfW.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flQmfW.jpg"];
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เบียร์")
 			{
 				$messages = [
 				'type' => 'image',
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flwkm1.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flwkm1.jpgg"];
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flwkm1.jpg"];
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "กาแฟร้อน")
 			{

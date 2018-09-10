@@ -90,30 +90,30 @@ if (!is_null($events['events']))
 			//EndCase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MENU")
 			{
-				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[menu1]เพื่อดูรายการอาหารที่1"."\n"."[menu2] เพื่อดูรายการอาหารที่2" . "\n"  . "[menu3] เพื่อดูรายการอาหารที่3"."\n"."[menu4] เพื่อดูรายการอาหารที่4"];
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[เมนู1]เพื่อดูรายการอาหารที่1"."\n"."[เมนู2] เพื่อดูรายการอาหารที่2" . "\n"  . "[เมนู3] เพื่อดูรายการอาหารที่3"."\n"."[เมนู4] เพื่อดูรายการอาหารที่4"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu4")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เมนู4")
 			{
 				$messages = [
 				'type' => 'image',
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flUe1Z.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flUe1Z.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu 3")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เมนู3")
 			{
 				$messages = [
 				'type' => 'image',
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flU2uD.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flU2uD.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu2")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เมนู2")
 			{
 				$messages = [
 				'type' => 'image',
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/flUxSv.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/flUxSv.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "menu1")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "เมนู1")
 			{
 				$messages = [
 				'type' => 'image',

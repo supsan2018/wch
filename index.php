@@ -88,6 +88,48 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ส้มตำ")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjXUha.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjXUha.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "แกงไตปลา")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjXcM9.jpgg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjXcM9.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "แกงเหลือง")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjXKiy.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjXKiy.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "สุกี้ยากี้ไก่-หมู")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjXfwQ.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjXfwQ.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ข้าวหมูกรอบ")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjHUPb.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjHUPb.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ต้มยำกุ้ง")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjHdAP.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjHdAP.jpg"];
+			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ข้าวหมูทอดกระเทียม")
 			{
 				$messages = [
@@ -109,12 +151,12 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjuT0b.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjuT0b.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ข้าวซอยไก่")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "แกงจืดตำลึงหมู")
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjukU9.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjukU9.jpg"];
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fj8yx0.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fj8yx0.jpg"];
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ข้าวซอยไก่")
 			{

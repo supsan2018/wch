@@ -211,7 +211,7 @@ if (!is_null($events['events']))
 				}
 				$messages = ['type' => 'image', 'originalContentUrl' => $templink, 'previewImageUrl' => $templink];
 			}
-			if ($text == "map")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP")
 			{
 				$messages = ['type' => 'location','title'=> 'my location','address'=> 'โรงเรียนวิเชียรมาตุ',
 				'latitude'=> 7.503131848543433,'longitude'=> 99.63012646883726];

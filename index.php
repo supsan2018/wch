@@ -66,7 +66,7 @@ if (!is_null($events['events']))
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			// Build message to reply back
-			$messages = ['type' => 'text', 'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."พิมพ์ตัวอักษรตามที่กำหนดให้" ."\n" ."\n". "[help] เพื่อดูเมนู" 
+			$messages = ['type' => 'text', 'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."กรุณาพิมพ์คำสั่ง" ."\n" ."\n". "[help] เพื่อดูเมนู" 
 			// "text"
 			];
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "HELP")
@@ -386,7 +386,7 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fl3pOQ.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fl3pOQ.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ทองหยิบ")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ติ่มซำ")
 			{
 				$messages = [
 				'type' => 'image',
@@ -666,7 +666,7 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjHdAP.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjHdAP.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ข้าวหมูทอดกระเทียม")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ข้าวหมูทอด")
 			{
 				$messages = [
 				'type' => 'image',
@@ -764,7 +764,7 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fj4F2Z.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fj4F2Z.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ขนมจีนน้ำยาปู")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ขนมจีน")
 			{
 				$messages = [
 				'type' => 'image',
@@ -823,7 +823,7 @@ if (!is_null($events['events']))
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "INFO")
 			{
-				$messages = ['type' => 'text', 'text' => "มหาวิทยาลัยวลัยลักษณ์เป็นมหาวิทยาลัยของรัฐ และอยู่ในกำกับของรัฐบาลที่ได้รับพระมหากรุณาธิคุณจากพระบาทสมเด็จพระเจ้าอยู่หัว พระราชทานชื่ออันเป็นสร้อยพระนามในสมเด็จพระเจ้าลูกเธอ เจ้าฟ้าจุฬาภรณวลัยลักษณ์อัครราชกุมารี" ."\n"."อ่านเพิ่มเติม: https://www.wu.ac.th"];
+				$messages = ['type' => 'text', 'text' => "โรงเรียนวิเชียรมาตุ" ."\n"."อ่านเพิ่มเติม: https://www.wu.ac.th"];
 			}				
 			if ( ereg_replace('[[:space:]]+', '', trim($text)) == "ภาพ")
 			{

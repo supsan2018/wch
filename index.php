@@ -89,6 +89,13 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "energry")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/11/fD3zDR.jpg",
+      				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/11/fD3zDR.jpg"];
+			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ผัดผักบุ้ง")
 			{
 				$messages = [

@@ -89,7 +89,7 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "energry")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "energy")
 			{
 				$messages = [
 				'type' => 'image',

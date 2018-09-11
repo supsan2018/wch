@@ -71,7 +71,7 @@ if (!is_null($events['events']))
 			];
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "HELP")
 			{
-				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[energy] เพื่อดูปริมาณแคลอรี่ที่ต้องใช้ในแต่ละเพศ"."\n"."[menu] เพื่อดูรายการอาหาร" . "\n"  . "[แนะนำ] เพื่อดูรายการอาหารที่แนะนำ"];
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[พลังงาน] เพื่อดูปริมาณแคลอรี่ที่ต้องใช้ในแต่ละเพศ"."\n"."[menu] เพื่อดูรายการอาหาร" . "\n"  . "[แนะนำ] เพื่อดูรายการอาหารที่แนะนำ"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "อากาศ"){
@@ -89,7 +89,7 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "energy")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "พลังงาน")
 			{
 				$messages = [
 				'type' => 'image',

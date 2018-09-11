@@ -88,6 +88,34 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "นมสด")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/11/fotMo1.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/11/fotMo1.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "น้ำมะนาว")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/11/fotmCg.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/11/fotmCg.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "น้ำส้ม")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/11/fotLSS.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/11/fotLSS.jpg"];
+			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "น้ำมะพร้าว")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/11/fotHtk.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/11/fotHtk.jpg"];
+			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MENU")
 			{
 				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[เมนู1]เพื่อดูรายการอาหารที่1"."\n"."[เมนู2] เพื่อดูรายการอาหารที่2" . "\n"  . "[เมนู3] เพื่อดูรายการอาหารที่3"."\n"."[เมนู4] เพื่อดูรายการอาหารที่4"];

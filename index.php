@@ -814,7 +814,7 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/10/fjXKiy.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/10/fjXKiy.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "สุกี้ยากี้ไก่-หมู")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "สุกี้ยากี้")
 			{
 				$messages = [
 				'type' => 'image',
